@@ -6,7 +6,7 @@ sub startup {
   my $self = shift;
 
   # Documentation browser under "/perldoc"
-  $self->plugin('PODRenderer');
+  $self->plugin('PODViewer');
 
   # Router
   my $r = $self->routes;
